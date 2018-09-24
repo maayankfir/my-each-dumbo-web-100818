@@ -1,4 +1,4 @@
 def my_each(words)
-  words.each {|x| puts x}
+  words.each {|x| x}
 
 end

@@ -1,4 +1,7 @@
 def my_each(words)
-  words.each {|x| x}
-
+  i = 0
+  while i < words.length
+    yeild words[i]
+    i = i + 1
+end
 end
